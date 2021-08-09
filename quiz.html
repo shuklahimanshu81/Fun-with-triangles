@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div>
+        <p id="heading"> Welcome to Triangle Quiz</p>
+    </div>
+    <div>
+        <a href="index.html"> Go Back to Home </a>
+    </div>
+    <div id="quiz-div">
+        <p id="heading"> Choose Correct option in Each question. </p>
+        <form id="quiz-form">
+            <div id="question-box">
+                <p> What do you call a triangle whose sides are all equal ? </p>
+                <lable> <input type="radio" name="question1" value="Equilateral" required> Equilateral </lable>
+                <lable> <input type="radio" name="question1" value="Isosceles" required> Isosceles </lable>
+                <lable> <input type="radio" name="question1" value="Scalene" required> Scalene </lable>
+            </div>
+            <div id="question-box">
+                <p> What is the name of the segment that joins the midpoints of the sides of a triangle? </p>
+                <lable> <input type="radio" name="question2" value="Median" required> Median </lable>
+                <lable> <input type="radio" name="question2" value="Midsegment" required> Midsegment </lable>
+                <lable> <input type="radio" name="question2" value="Vertex" required> Vertex </lable>
+                <lable> <input type="radio" name="question2" value="centroid" required> centroid </lable>
+            </div>
+            <div id="question-box">
+                <p> If a triangle has angles 85°,65°,30°. Is it an obtuse triangle </p>
+                <lable> <input type="radio" name="question3" value="Yes" required> Yes </lable>
+                <lable> <input type="radio" name="question3" value="No" required> No </lable>
+            </div>
+            <div id="question-box">
+                <p> If a triangle has angles 65°,65°,50°. Is it an acute triangle </p>
+                <lable> <input type="radio" name="question4" value="Yes" required> Yes </lable>
+                <lable> <input type="radio" name="question4" value="No" required> No </lable>
+            </div>
+            <div id="question-box">
+                <p> What will be area of the triangle with base 9cm and height 8cm?</p>
+                <label><input type="radio" name="question5" value="36" required> 36 </label>
+                <label><input type="radio" name="question5" value="26" required> 26 </label>
+                <label><input type="radio" name="question5" value="72" required> 72 </label>
+                <label><input type="radio" name="question5" value="16" required> 16 </label>
+            </div>
+            <div id="question-box">
+                <p> What will be Hypotenuse of the triangle with base 6cm and perpendicular 8cm?</p>
+                <label><input type="radio" name="question6" value="100" required> 100 </label>
+                <label><input type="radio" name="question6" value="10" required> 10 </label>
+            </div>
+        </form>
+        <button id="submit-btn"> Submit </button>
+    </div>
+    <div id="outputDiv"> Score will be shown here after submission. </div>
+
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

@@ -14,9 +14,11 @@ a:hover {
     display: block;
     margin: 2rem auto; 
     text-align :center;
-    background-color: rgba(255, 60, 1, 0.6);
+    background-color: rgba(252, 236, 215, 0.6);
+    padding: 1rem 2rem;
     color: black;
-   max-width: 200px;
+   max-width: 400px;
+   text-decoration: none;
    
 }
 .first-div{
@@ -55,7 +57,7 @@ p{
     width: 4.5rem;
     height: 2rem;
     border: solid black 3px;
-    background-color: hotpink;
+    background-color: yellowgreen;
     border-radius: 5px;
     font-weight: bolder;
     font-size: 0.9rem;

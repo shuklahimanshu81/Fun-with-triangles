@@ -18,9 +18,11 @@ a:hover {
     margin: 2rem auto; 
     margin-bottom: 5rem;
     text-align :center;
-    background-color: rgba(255, 60, 1, 0.6);
+    background-color: rgba(252, 236, 215, 0.6);
+    padding: 1rem 2rem;
+    text-decoration: none;
     color: black;
-   max-width: 200px;
+   max-width: 400px;
   }
 input{
     margin: 1rem auto;
