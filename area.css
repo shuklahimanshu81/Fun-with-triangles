@@ -24,6 +24,17 @@ a:hover {
     color: black;
    max-width: 400px;
   }
+  p{
+    text-align: center;
+    margin: 0rem auto;
+    font-weight: bolder;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    max-width: 400px;
+    color: black;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+}
 input{
     margin: 1rem auto;
     display: block;
