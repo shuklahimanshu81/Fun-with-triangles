@@ -1,3 +1,6 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 body{
     background-image: url('/background.jpg');
     background-repeat: no-repeat;
@@ -73,5 +76,9 @@ a:hover {
     text-align: center;
     
 }
+ 
+
+
+
 
 
