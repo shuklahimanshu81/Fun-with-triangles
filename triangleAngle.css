@@ -28,7 +28,8 @@ a:hover {
     margin: 1rem auto;
 }
 input{
-    
+   text-align: center;
+   font-weight: bold;
     width: 4rem;
     height: 2rem;
     border: solid black 3px;
